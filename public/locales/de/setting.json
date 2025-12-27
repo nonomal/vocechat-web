@@ -22,7 +22,24 @@
     "license": "Lizenz",
     "about": "Über",
     "api_doc": "API-Dokumentation",
-    "version": "Version"
+    "version": "Version",
+    "video": "Videoanrufe"
+  },
+  "vocespace": {
+    "title": "VoceSpace",
+    "desc": "Selbstgehosteter VoceSpace (Automatisierte Bereitstellung)",
+    "prerequisite": [
+      "Voraussetzungen",
+      "Docker-Umgebung",
+      "Die Ports 80, 443, 7880, 7881, 3008 und 3000 sind geöffnet",
+      "Die Domain ist registriert",
+      "Für Unternehmensanpassungen oder bei Fragen wenden Sie sich bitte an han@privoce.com oder fügen Sie uns auf WeChat hinzu: Privoce"
+    ],
+    "sub_desc": "Jedes VoceSpace-Konto bietet unbegrenzte Gesprächsminuten, 5 gleichzeitige Teilnehmer und eine kostenlose 4K-Auflösung. Es ist keine Kontoerstellung erforderlich. Befolgen Sie die unten stehenden Anweisungen, um Ihren VoceSpace korrekt zu konfigurieren.",
+    "domain_desc": "Diese Domain benötigt einen DNS-A-Eintrag, der auf die IP-Adresse des aktuellen Servers verweist, auf dem Sie VoceChat hosten.",
+    "enable": "Aktivieren",
+    "how_to": "Nach der Aktivierung legen Sie bitte eine benutzerdefinierte Domain fest. Klicken Sie auf „Speichern“, und das System aktiviert VoceSpace automatisch.",
+    "old": "Ihre aktuelle Serverversion ist veraltet. Wir haben den offiziellen VoceSpace (vocespace.com) als Standard-Audio-/Videodienst aktiviert. Um Ihre eigene private Installation zu nutzen, aktualisieren Sie bitte vocechat-server auf Version 0.5.8 oder höher."
   },
   "channel": {
     "leave": "Kanal verlassen",
